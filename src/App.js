@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from './Header'
-import Footer from './Footer'
-// import Main from './Main'
+import Nav from './components/layout/shared/Nav'
+import Footer from './components/layout/shared/Footer'
 import { Routes } from './routes'
 import './App.css';
 
@@ -11,7 +10,7 @@ function App() {
   return (
     <>
       <header>
-        <Header />
+        <Nav />
       </header>
 
       <main>

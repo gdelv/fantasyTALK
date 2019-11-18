@@ -5,6 +5,7 @@ const footerStyle = {
     padding:'20px',
     color:'white'
 }
+
 const Footer = () => {
     return(
         <footer style={footerStyle}>
