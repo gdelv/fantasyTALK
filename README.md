@@ -6,6 +6,16 @@ The world leader of fantasy sports opinion on last minute decisions
 
 I enjoy fantasy sports and getting to hear other peoples input in decisions on who to start would be a great combination to showcase what I have learned so far with React.
 
+## To Do
+- [x] Initiate Routes
+- [x] Created components needed 
+- [x] Home page working 
+- [ ] Get NFL page working properly
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
 
 
 
