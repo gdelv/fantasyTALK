@@ -1,3 +1,14 @@
+# Welcome to fantasyTALK
+
+The world leader of fantasy sports opinion on last minute decisions
+
+## Inspiration
+
+I enjoy fantasy sports and getting to hear other peoples input in decisions on who to start would be a great combination to showcase what I have learned so far with React.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
