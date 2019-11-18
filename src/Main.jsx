@@ -2,41 +2,44 @@ import React from 'react'
 
 
 const imgStyle = {
-    
+
     paddingTop: '20px',
     height: '15em',
 }
 const widgetStyle = {
-    border:'2px solid black',
-    padding:'20px',
+    border: '2px solid black',
+    padding: '20px',
 }
 
 const buttonStyle = {
-    position:'relative',
-    borderRadius:'20px',
-    top:'-6em',
-    background:'white',
+    position: 'relative',
+    borderRadius: '20px',
+    top: '-6em',
+    background: 'white',
 
 }
 const titleStyle = {
-    background:'#0C1428',
-    padding:'20px',
-    color:'white',
-    fontWeight:'800',
+    background: '#0C1428',
+    padding: '20px',
+    color: 'white',
+    fontWeight: '800',
 }
 const logoTitle = {
-    fontSize:'20px',
-    width:'fit-content',
+    // fontSize:'20px',
+    width: 'fit-content',
     display: 'flex',
     position: 'relative',
-    left: '7em',
-    top: '-12em',
-    padding:'5px',
-    border:'2px solid black',
-    borderRadius:'20px',
-    background:'gray',
-    color:'white',
+    margin: '0 auto',
+    top: '-14.5em',
+    padding: '5px',
+    border: '2px solid black',
+    borderRadius: '20px',
+    background: 'gray',
+    color: 'white',
 }
+
+
+
 const Main = (props) => {
     return (
         <main>
