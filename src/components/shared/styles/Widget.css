@@ -73,10 +73,19 @@
 
     90% {
 		transform: translateX(40vw) ;
-	}
+    }
+    
+    95% {
+        transform:  translateX(50vw);
+
+    }
+    99% {
+        transform:  translateX(60vw);
+
+    }
 
 	100% {
-		transform: translateX(140vw) ;
+		transform: translateX(100vw) ;
 	}
 	
 }
