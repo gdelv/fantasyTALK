@@ -23,6 +23,6 @@ export const createQuestion = async (questionData) => {
         const resp = await api.post('/NFL', questionData)
         return resp
     } catch(error) {
-        console.error(error)
+        throw error
     }
 }

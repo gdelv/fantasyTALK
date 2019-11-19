@@ -13,12 +13,12 @@ I enjoy fantasy sports and getting to hear other peoples input in decisions on w
 - [x] Get NFL page working properly
 - [x] MockAPI data loading correctly 
 - [ ] widgetAPI data loading correctly
-- [ ] 
+- [ ] createQuestion page working correctly
 - [ ] 
 - [ ] 
 
 
-
+<!-- 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -86,4 +86,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->

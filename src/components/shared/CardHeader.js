@@ -3,7 +3,7 @@ import './styles/Card.css'
 
 export const CardHeader = ({imageUrl}) => {
     return(
-        <div>
+        <div className='card-header'>
             <img src={imageUrl} alt="card header"/>
         </div>
 

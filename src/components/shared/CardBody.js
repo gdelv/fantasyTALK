@@ -3,6 +3,6 @@ import './styles/Card.css'
 
 export const CardBody = ({ children }) => {
     return (
-        <div>{children}</div>
+        <div className='card-body'>{children}</div>
     )
 }
