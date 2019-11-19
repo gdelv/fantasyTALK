@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './components/Nav'
+import Widget from './components/Widget'
 import Footer from './components/Footer'
 import { Routes } from './routes'
 import './App.css';
@@ -11,6 +12,7 @@ function App() {
     <>
       <header>
         <Nav />
+        <Widget/>
       </header>
 
       <main>

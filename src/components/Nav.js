@@ -16,19 +16,20 @@ const Nav = () => {
         <nav style={navStyle}>
             <h1>fantasyTALK</h1>
             {/* <Flex> */}
-                <NavLink exact to='/' activeClassName='active' >
+            <NavLink exact to='/' activeClassName='active' >
                 Home
                  </NavLink>
 
-                <NavLink exact to='/nflquestions' activeClassName='active'>
+            <NavLink exact to='/nflquestions' activeClassName='active'>
                 NFL Questions
                 </NavLink>
 
-                <NavLink exact to='/nflquestions/create' activeClassName='active'>
-                    Add a Question
+            <NavLink exact to='/nflquestions/create' activeClassName='active'>
+                Add a Question
                 </NavLink>
+                
 
-                {/* <Nav */}
+            {/* <Nav */}
             {/* </Flex> */}
         </nav>
     )

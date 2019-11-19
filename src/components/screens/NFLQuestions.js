@@ -5,10 +5,7 @@ import { CardBody } from '../shared/CardBody'
 // import { Button } from '../shared/Button'
 import { api } from '../../services/ApiConfig'
 
-const widgetStyle = {
-    border: '2px solid black',
-    padding: '20px',
-}
+
 
 class NFLQuestions extends React.Component {
     constructor() {
@@ -67,7 +64,6 @@ class NFLQuestions extends React.Component {
     render() {
         return (
             <>
-                <div style={widgetStyle}>sports widget will be here</div>
                 <h1>Welcome to NFL Questions</h1>
                 <h3>Have a doubt on what to do regarding your fantasy team?</h3>
                 <p>Post your question below to see opinions</p>

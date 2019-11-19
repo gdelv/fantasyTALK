@@ -1,0 +1,78 @@
+.container {
+    z-index: 3;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.fact-container {
+	/* position: absolute; */
+	/* top: 20%; */
+	/* left: -10%; */
+	/* transform: scale(0) translateX(-10vw); */
+	/* will-change: transform; */
+    display: flex;
+    flex-direction: row;
+	animation-name: fly-right;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-delay: 0;
+    
+}
+
+.facts {
+    padding-left:100px;
+}
+
+@keyframes fly-right{
+	
+	0% {
+		transform:  translateX(-140vw);
+    }
+    
+	10% {
+		transform: translateX(-40vw) ;
+	}
+	
+	20% {
+		transform: translateX(-30vw) ;
+	}
+	
+	30% {
+		transform: translateX(-20vw) ;
+	}
+	
+	40% {
+		transform: translateX(-10vw) ;
+	}
+	
+	50% {
+		transform: translateX(0vw) ;
+	}
+	
+	60% {
+		transform: translateX(10vw) ;
+	}
+    
+    70% {
+		transform: translateX(20vw) ;
+    } 
+    
+    80% {
+		transform: translateX(70vw) ;
+	}
+
+    90% {
+		transform: translateX(80vw) ;
+	}
+
+	100% {
+		transform: translateX(140vw) ;
+	}
+	
+}

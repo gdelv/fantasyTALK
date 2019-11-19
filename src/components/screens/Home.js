@@ -4,10 +4,7 @@ const imgStyle = {
     paddingTop: '20px',
     height: '15em',
 }
-const widgetStyle = {
-    border: '2px solid black',
-    padding: '20px',
-}
+
 
 const titleStyle = {
     background: '#0C1428',
@@ -31,7 +28,7 @@ const logoTitle = {
 const Home = () => {
     return (
         <>
-            <div style={widgetStyle}>sports widget will be here</div>
+            
 
             <div style={titleStyle}>Welcome to fantasyTALK the world leader of fantasy debates</div>
 
