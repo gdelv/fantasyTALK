@@ -18,14 +18,14 @@ const QuestionForm =  (props) => {
 				name='question'
 				value={question}
 				required={true}
-				placeholder='Question'
+				placeholder='Question (Type your question)'
 				onChange={(e) => onChange(e)}
 			/>
 			<Input
 				name='image_url'
 				value={image_url}
 				required={true}
-				placeholder='Question Image (RIGHT CLICK desired image and select Open Image in New Tab (then) SELECT Copy Image Address)'
+				placeholder='Question Image (Paste Image Address)'
 				onChange={(e) => onChange(e)}
 			/>
 			
