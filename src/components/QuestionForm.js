@@ -25,7 +25,7 @@ const QuestionForm =  (props) => {
 				name='image_url'
 				value={image_url}
 				required={true}
-				placeholder='Question Image (Paste image link address)'
+				placeholder='Question Image (RIGHT CLICK desired image and select Open Image in New Tab (then) SELECT Copy Image Address)'
 				onChange={(e) => onChange(e)}
 			/>
 			

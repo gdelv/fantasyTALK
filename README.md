@@ -11,10 +11,10 @@ I enjoy fantasy sports and getting to hear other peoples input in decisions on w
 - [x] Created components needed 
 - [x] Home page working 
 - [x] Get NFL page working properly
-- [x] MockAPI data loading correctly 
+- [x] MockAPI reading data loading correctly 
 - [ ] widgetAPI data loading correctly
-- [ ] createQuestion page working correctly
-- [ ] 
+- [x] createQuestion page working correctly
+- [x] MockAPI creating data correctly
 - [ ] 
 
 
