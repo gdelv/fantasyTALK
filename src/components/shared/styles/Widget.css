@@ -32,7 +32,11 @@
 @keyframes fly-right{
 	
 	0% {
-		transform:  translateX(-140vw);
+		transform:  translateX(-200vw);
+    }
+    1% {
+        transform:  translateX(-180vw);
+
     }
     
 	10% {
@@ -64,11 +68,11 @@
     } 
     
     80% {
-		transform: translateX(70vw) ;
+		transform: translateX(30vw) ;
 	}
 
     90% {
-		transform: translateX(80vw) ;
+		transform: translateX(40vw) ;
 	}
 
 	100% {
