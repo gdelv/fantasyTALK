@@ -10,9 +10,9 @@ I enjoy fantasy sports and getting to hear other peoples input in decisions on w
 - [x] Initiate Routes
 - [x] Created components needed 
 - [x] Home page working 
-- [ ] Get NFL page working properly
-- [ ] 
-- [ ] 
+- [x] Get NFL page working properly
+- [x] MockAPI data loading correctly 
+- [ ] widgetAPI data loading correctly
 - [ ] 
 - [ ] 
 - [ ] 

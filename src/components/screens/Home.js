@@ -1,7 +1,6 @@
 import React from 'react'
 
 const imgStyle = {
-
     paddingTop: '20px',
     height: '15em',
 }
@@ -37,7 +36,7 @@ const Home = () => {
             <div style={titleStyle}>Welcome to fantasyTALK the world leader of fantasy debates</div>
 
             <img style={imgStyle} src="https://wallpaperplay.com/walls/full/6/d/e/179205.jpg" alt="NFL logo"></img>
-            
+
             <span style={logoTitle}>NFL Debates</span>
 
         </>

@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from './components/layout/shared/Nav'
-import Footer from './components/layout/shared/Footer'
+import Nav from './components/Nav'
+import Footer from './components/Footer'
 import { Routes } from './routes'
 import './App.css';
 
