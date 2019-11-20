@@ -14,20 +14,20 @@ class EditQuestions extends React.Component {
     }
 
     componentDidMount() {
-        
+        this.fetchQuestionById()
     }
 
     handleSubmit = (event) => {
         event.preventDefault()
         const { topic, question, image_url } = this.state
-        const data =  {
+        const data = {
             topic,
             question,
             image_url
         }
         api.put(`/NFL/${this.props.match.params.NFL_id}`, data)
-        .then(response => response.status === 200 ? this.props.history.push('/NFL') : null)
-        .catch(() => this.setState({ errorMsg: "An error has been found in Edit Component" }))
+            .then(response => response.status === 200 ? this.props.history.push('/NFL') : null)
+            .catch(() => this.setState({ errorMsg: "An error has been found in Edit Component" }))
     }
 
     fetchQuestionById = async () => {
@@ -37,16 +37,37 @@ class EditQuestions extends React.Component {
         try {
             const questions = await api.get(`/NFL/${params.NFL_id}`)
             this.setState({
-                topic: NFL.data.topic,
-                question: NFL.data.question,
-                image_url: NFL.data.image_url
+                topic: questions.data.topic,
+                question: questions.data.question,
+                image_url: questions.data.image_url
             })
-        } catch(error) {
+        } catch (error) {
             console.error(error)
         }
     }
 
-    
+    handleChange = (e) => {
+        this.setState({ [e.target.name]: e.target.value })
+    }
+
+    render() {
+        const { topic, question, image_url } = this.state
+        return (
+            <div className='food-forms'>
+                <h3>Change Predicition</h3>
+                <QuestionForm
+                    formData={{ topic, question, image_url }}
+                    onChange={this.handleChange}
+                    onSubmit={this.handleSubmit}
+                />
+                {this.state.errorMsg ? (
+                    <p className='error-text'>{this.state.errorMsg}</p>
+                ) : null}
+            </div>
+        )
+    }
 
 }
 
+
+export default EditQuestions

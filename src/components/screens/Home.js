@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from '../shared/Button'
 
 const imgStyle = {
     paddingTop: '20px',
@@ -25,18 +26,25 @@ const logoTitle = {
     color: 'white',
 }
 
-const Home = () => {
+const Home = (props) => {
+    const { history } = props
     return (
-        <>
-            
+        <div>
 
-            <div style={titleStyle}>Welcome to fantasyTALK the world leader of fantasy debates</div>
+
+            <div style={titleStyle}>Welcome to Prediction World the world leader of Predictions</div>
 
             <img style={imgStyle} src="https://wallpaperplay.com/walls/full/6/d/e/179205.jpg" alt="NFL logo"></img>
 
-            <span style={logoTitle}>NFL Debates</span>
+            <span style={logoTitle}>NFL Predictions</span>
 
-        </>
+            <Button
+                title='View Predictions'
+                variant='primary'
+                onClick={() => history.push('/nflquestions')}
+            />
+        </div>
+
     )
 }
 export default Home

@@ -11,21 +11,21 @@ const QuestionForm =  (props) => {
 				name='topic'
 				value={topic}
 				required={true}
-				placeholder='NFL Topic (Format: Action/Not) '
+				placeholder='Prediction '
 				onChange={(e) => onChange(e)}
 			/>
 			<Input
 				name='question'
 				value={question}
 				required={true}
-				placeholder='Question (Type your question)'
+				placeholder='Prediction Owner '
 				onChange={(e) => onChange(e)}
 			/>
 			<Input
 				name='image_url'
 				value={image_url}
 				required={true}
-				placeholder='Question Image (Paste Image Address)'
+				placeholder='Prediction Image (Paste Image Address)'
 				onChange={(e) => onChange(e)}
 			/>
 			

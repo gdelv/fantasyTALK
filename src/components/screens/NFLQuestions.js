@@ -2,7 +2,7 @@ import React from 'react'
 import { Card } from '../shared/Card'
 import { CardHeader } from '../shared/CardHeader'
 import { CardBody } from '../shared/CardBody'
-// import { Button } from '../shared/Button'
+import { Button } from '../shared/Button'
 import { api } from '../../services/ApiConfig'
 
 
@@ -30,10 +30,10 @@ class NFLQuestions extends React.Component {
     }
 
     renderQuestions = () => {
-        // const {
-        //     match: { path },
-        //     history,
-        //   } = this.props
+        const {
+            match: { path },
+            history,
+          } = this.props
           if (this.state.questions.length) {
             return this.state.questions.map((question) => (
               <Card key={question.id}>
@@ -49,11 +49,12 @@ class NFLQuestions extends React.Component {
                   className="delete" */}
                 {/* //   onClick={() => this.handleOpenModal(food, index)} */}
                 
-                {/* <Button
+                <Button
                   color="primary"
                   title="Edit"
-                  className="edit" */}
-                {/* //   onClick={() => history.push(`${path}/edit/${food.id}`)} */}
+                  className="edit" 
+                  onClick={() => history.push(`${path}/edit/${question.id}`)} 
+                />
                 
               </Card>
             ))
@@ -64,9 +65,9 @@ class NFLQuestions extends React.Component {
     render() {
         return (
             <>
-                <h1>Welcome to NFL Questions</h1>
-                <h3>Have a doubt on what to do regarding your fantasy team?</h3>
-                <p>Post your question below to see opinions</p>
+                <h1>Welcome to NFL Predictions</h1>
+                <h3>Have a gut feeling on who's going to win an upcoming game?</h3>
+                <p>Post your prediction below and prove the world the Nostradamus you are</p>
                 {this.renderQuestions()}
             </>
         )
