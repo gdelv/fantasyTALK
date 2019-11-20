@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "image_url": "http://static.nfl.com/static/content/public/static/img/fantasy/transparent/512x512/WIL384555.png",
+        "topic": "Start/Not",
+        "question": "Should I start Jonathan Williams?"
+    },
+    {
+        "id": "2",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Green_Bay_Packers_logo.svg/640px-Green_Bay_Packers_logo.svg.png",
+        "topic": "Drop/Not",
+        "question": "Should I drop the GB DEF?"
+    },
+    {
+        "id": "3",
+        "image_url": "https://www.bostonherald.com/wp-content/uploads/2019/10/patsnl025-2.jpg?w=397",
+        "topic": "Pickup/Not",
+        "question": "Should I pickup Younghoe Koo or Nick Folk?"
+    },
+    {
+        "id": "4",
+        "image_url": "http://static.nfl.com/static/content/public/static/img/fantasy/transparent/512x512/JEF498860.png",
+        "topic": "Start/Not",
+        "question": "Should I start Alshon Jeffery?"
+    },
+    {
+        "id": "5",
+        "image_url": "https://i0.wp.com/thefsgn.com/wp-content/uploads/2019/08/Fantasy-Football-Logo.jpg?w=440",
+        "topic": "Scoring Leagues",
+        "question": "Is PPR better than Standard?"
+    },
+    {
+        "id": "6",
+        "image_url": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fthumbor-prod-us-east-1.photo.aws.arc.pub%2F-p3jNh5SDDT3Z0VdSZrHKtvR3JI%3D%2Farc-anglerfish-arc2-prod-dmn%2Fpublic%2FKLNTZGI553T5SAKZ4AP4KHEQHI.jpg&imgrefurl=https%3A%2F%2Fwww.dallasnews.com%2Fsports%2Fcowboys%2F2019%2F08%2F11%2Fdak-prescott-perfect-on-opening-drive-in-cowboys-preseason-opener-as-jason-witten-anxiously-awaits-nfl-return%2F&docid=mcVRHlyghHkRAM&tbnid=4OVxi7RQGh0-IM%3A&vet=10ahUKEwiw_q-6gPflAhUwwFkKHTkWAKwQMwh8KAQwBA..i&w=1024&h=803&hl=en-us&client=safari&bih=722&biw=1112&q=jason%20witten&ved",
+        "topic": "Start/Not",
+        "question": "Should I start Jason Witten?"
+    },
+    {
+        "id": "7",
+        "image_url": "philip rivers",
+        "topic": "Quarterback Phillip Rivers",
+        "question": "Is he actually one of the best QBs to never win a Super Bowl"
+    }
+]
