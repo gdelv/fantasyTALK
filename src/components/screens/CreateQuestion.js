@@ -33,7 +33,7 @@ class CreateQuestion extends React.Component {
         const { topic, question, image_url } = this.state
         return (
             <div className='food-forms'>
-                <h3>Ask a question!</h3>
+                <h3>Create a prediction!</h3>
                 <QuestionForm
                     formData={{ topic, question, image_url }}
                     onChange={this.handleChange}

@@ -26,7 +26,7 @@ class EditQuestions extends React.Component {
             image_url
         }
         api.put(`/NFL/${this.props.match.params.NFL_id}`, data)
-            .then(response => response.status === 200 ? this.props.history.push('/NFL') : null)
+            .then(response => response.status === 200 ? this.props.history.push('/nflquestions') : null)
             .catch(() => this.setState({ errorMsg: "An error has been found in Edit Component" }))
     }
 
