@@ -2,7 +2,7 @@
 
 The world leader of fantasy sports opinion on last minute decisions
 
-Check out the website @ predictionworld.surge.sh
+Check out the website @ www.predictionworld.surge.sh
 
 ## Inspiration
 
