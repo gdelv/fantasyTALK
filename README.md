@@ -1,10 +1,12 @@
-# Welcome to fantasyTALK
+# Welcome to PREDICTIONworld
 
 The world leader of fantasy sports opinion on last minute decisions
 
+Check out the website @ predictionworld.surge.sh
+
 ## Inspiration
 
-I enjoy fantasy sports and getting to hear other peoples input in decisions on who to start would be a great combination to showcase what I have learned so far with React.
+I enjoy making predictions on who will win the upcoming game and between my family we always say "remember I called that they were going the game", but no one ever does. Well now we have a website to hold your predictions so you can prove your friends you had called it before tipoff!
 
 ## To Do
 - [x] Initiate Routes
@@ -16,6 +18,7 @@ I enjoy fantasy sports and getting to hear other peoples input in decisions on w
 - [x] createQuestion page working correctly
 - [x] MockAPI creating data correctly
 - [x] Add rotating animation to API data
+- [x] Edit feature working correctly
 
 
 <!-- 
