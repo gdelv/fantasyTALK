@@ -21,7 +21,7 @@ button:hover {
 .edit {
 	padding:10px;
 	width:100px;
-	margin: 20px auto 0px auto;
+	margin: -3.5em auto 0px auto;
 }
 
 .home {
@@ -38,23 +38,25 @@ button:hover {
 }
 
 
-
-
-
-.danger {
-	background-color: #ef5350;
-	color: #f8f8f8;
-}
-
-.danger:hover {
-	background-color: #ff867c;
-}
-
-.fab {
-	padding: 0;
-	height: 30px;
+.delete {
+	position: relative;
+	top:-12em;
+	left:3em;
+	background-color: red;
+	padding:0px;
 	width: 30px;
-	border-radius: 50%;
-	line-height: 25px;
+	border: 2px solid black;
 }
+
+.delete:hover {
+	color:red;
+}
+
+
+.card {
+	border:1px solid black;	
+	margin-top: 10px;
+}
+
+
 

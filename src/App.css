@@ -32,3 +32,18 @@ nav .links a:hover {
   background:white;
   color:#0C1428;
 }
+
+.modal {
+  z-index: 1000;
+  display: inline-block;
+  position: fixed;
+  background:red;
+  left: 0px;
+  top: 50%;
+  border-radius: 30px;
+  padding:5px;
+}
+
+.close {
+ display: none; 
+}
