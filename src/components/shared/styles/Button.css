@@ -1,24 +1,45 @@
-.button {
+button {
 	font-size: 1.2rem;
 	transition: all 0.4s ease;
 	font-weight: 600;
-	margin: auto;
+	margin: 10px 0px 40px 0px;
 	padding: 0.4em 1.2em;
-	border-radius: 4px;
+	border-radius: 30px;
 	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+	background-color: #000a42;
+	color:white;
 }
 
-.button:active {
+button:hover {
 	transform: scale(0.9);
+	background-color: white;
+	color:#000a42;
+	border:2px solid #000a42;
+
 }
 
-.primary {
-	background-color: #7986cb;
+.edit {
+	padding:10px;
+	width:100px;
+	margin: 20px auto 0px auto;
 }
 
-.primary:hover {
-	background-color: #aab6fe;
+.home {
+	font-size: 1.2rem;
+	transition: all 0.4s ease;
+	font-weight: 600;
+	margin: 10px 0px 40px 0px;
+	padding: 0.4em 1.2em;
+	border-radius: 30px;
+	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+	background-color: #000a42;
+	color:white;
+
 }
+
+
+
+
 
 .danger {
 	background-color: #ef5350;
@@ -36,3 +57,4 @@
 	border-radius: 50%;
 	line-height: 25px;
 }
+

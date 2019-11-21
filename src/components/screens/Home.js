@@ -22,7 +22,7 @@ const logoTitle = {
     padding: '5px',
     border: '2px solid black',
     borderRadius: '20px',
-    background: 'gray',
+    background: '#0C1428',
     color: 'white',
 }
 
@@ -40,7 +40,7 @@ const Home = (props) => {
 
             <Button
                 title='View Predictions'
-                variant='primary'
+                className='home'
                 onClick={() => history.push('/nflquestions')}
             />
         </div>

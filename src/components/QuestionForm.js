@@ -29,7 +29,7 @@ const QuestionForm =  (props) => {
 				onChange={(e) => onChange(e)}
 			/>
 			
-			<Button title='Submit Prediction' color='primary' />
+			<Button title='Submit Prediction' color='primary' className='submit' />
         </form>
     )
 }
