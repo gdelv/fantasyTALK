@@ -23,7 +23,7 @@ class CreateQuestion extends React.Component {
             image_url
         }
         api.post('/NFL', data)
-            .then((response) => response.status === 201 ? this.props.history.push('/NFL') : null)
+            .then((response) => response.status === 201 ? this.props.history.push('/nflquestions') : null)
             .catch(() => this.setState({ errorMsg: 'There was an error' }))
     }
 
