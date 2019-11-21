@@ -9,7 +9,6 @@ const footerStyle = {
 const Footer = () => {
     return(
         <footer style={footerStyle}>
-            this is the footer
         </footer>
     )
 }
