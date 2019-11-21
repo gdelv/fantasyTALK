@@ -34,6 +34,9 @@ const Home = (props) => {
 
             <div style={titleStyle}>Welcome to Prediction World the world leader of Predictions</div>
 
+            <h3>Have a gut feeling on who's going to win an upcoming game?</h3>
+            <p>Post your prediction and prove the world the Nostradamus you are</p>
+
             <img style={imgStyle} src="https://wallpaperplay.com/walls/full/6/d/e/179205.jpg" alt="NFL logo"></img>
 
             <span style={logoTitle}>NFL Predictions</span>

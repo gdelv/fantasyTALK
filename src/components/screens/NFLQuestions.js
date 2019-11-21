@@ -107,9 +107,9 @@ class NFLQuestions extends React.Component {
   render() {
     return (
       <>
-        <h1>Welcome to NFL Predictions</h1>
-        <h3>Have a gut feeling on who's going to win an upcoming game?</h3>
-        <p>Post your prediction below and prove the world the Nostradamus you are</p>
+        <h1>NFL Predictions</h1>
+        {/* <h3>Have a gut feeling on who's going to win an upcoming game?</h3>
+        <p>Post your prediction below and prove the world the Nostradamus you are</p> */}
         {this.renderQuestions()}
         {this.renderDeleteConfirmModal()}
       </>
