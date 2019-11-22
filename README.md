@@ -4,9 +4,17 @@ The world leader of fantasy sports opinion on last minute decisions
 
 Check out the website @ www.predictionworld.surge.sh
 
+## Description
+- Imagine this, you are with your friend watching the game and as the game progresses you began an argument because you think the Home team will win the game. You're friend disagrees as usual. 
+- Once the game is over and the Home team wins, you tell your friend "see I told you they were going to win". Like a sore loser he replies "I don't remember you predicting that"
+- Those times are now over with PREDICTIONworld!
+- You can now post your prediction as soon as possible.
+- Before the game is over post you prediction, and once it ends and you're right you have hard rock proof.
+
 ## Inspiration
 
 I enjoy making predictions on who will win the upcoming game and between my family we always say "remember I called that they were going the game", but no one ever does. Well now we have a website to hold your predictions so you can prove your friends you had called it before tipoff!
+
 
 ## To Do
 - [x] Initiate Routes
@@ -19,6 +27,23 @@ I enjoy making predictions on who will win the upcoming game and between my fami
 - [x] MockAPI creating data correctly
 - [x] Add rotating animation to API data
 - [x] Edit feature working correctly
+- [x] Delete feature working correctly
+
+# Ideas
+
+- Authentication is a feature I would like to implement in the future, so only the Admin can delete predictions after they've occurred.
+- Eventually I would like to add more functionality to the website in the sense of letting users navigate inside of each prediction and commenting on them.
+- Another implementation I would like to do is make my third party API data be more useful than just arrest data. I would like to show a sports scores ticker like ESPN.
+
+# Technology Used 
+
+- React -> JavaScript library
+
+    - First time using React, and it was a very cool and fun experience to learn about what React does and how it intereacts with third-party and mock data API's.
+    - Creating components and using them was a real good way to see the real beauty behind react, and how making components reusable eventualy saved a lot of time.
+    - The lifecycles and methods are also astonishing to think about the many ways that one can implement a lifecycle for different situations.
+    
+
 
 
 <!-- 
