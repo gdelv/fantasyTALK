@@ -22,10 +22,10 @@ const Footer = () => {
     return(
         <footer style={footerStyle}>
             <div style={footerLinks}>
-                <a style={aStyle} href='htttp://www.google.com' target='_blank' rel="noopener noreferrer">Google</a>
-                <a style={aStyle} href='htttp://www.facebook.com' target='_blank' rel="noopener noreferrer">Facebook</a>
-                <a style={aStyle} href='htttp://www.instagram.com' target='_blank' rel="noopener noreferrer">Instagram</a>
-                <a style={aStyle} href='htttp://www.twitter.com' target='_blank' rel="noopener noreferrer">Twitter</a>
+                <a style={aStyle} href='http://www.google.com' target='_blank' rel="noopener noreferrer">Google</a>
+                <a style={aStyle} href='http://www.facebook.com'target='_blank' rel="noopener noreferrer">Facebook</a>
+                <a style={aStyle} href='http://www.instagram.com'target='_blank' rel="noopener noreferrer">Instagram</a>
+                <a style={aStyle} href='tttp://www.twitter.com'target='_blank' rel="noopener noreferrer">Twitter</a>
 
             </div>
             <h5>Copyright &copy; 2019 </h5>
